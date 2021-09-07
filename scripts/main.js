@@ -12,3 +12,11 @@ const showUserList = () => {
 
 
 showUserList ();
+
+const buttonElement = document.querySelector(".User");
+
+buttonElement.addEventListener("click", (event) => {
+	if (event.target.id === "newUser") {
+		showUserList()
+	}
+})
