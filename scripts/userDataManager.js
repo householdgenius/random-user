@@ -4,5 +4,14 @@ export const getUsers = () => {
             return response.json()
 
         })
-        .then(parsedResponse => console.log(parsedResponse))
+        .then(parsedResponse => {
+            console.log(parsedResponse)
+            return parsedResponse
+        }
+
+
+        )
+
+
 }
+
