@@ -1,0 +1,10 @@
+.name {
+    display: flex;
+    flex-direction: row;
+
+}
+.location{
+    display: flex;
+    flex-direction: row;
+
+}
